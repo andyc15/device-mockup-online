@@ -1,0 +1,95 @@
+/* CSS Document */
+#header{
+	border-bottom: 1px solid #C2C2C2;
+	display: table;
+	width: 100%;
+}
+#body{
+	margin: 0;
+	color: #373737;
+	font-family: 'Roboto', 'Noto Sans SC', sans-serif;
+}
+#name {
+	padding: 1.25em;
+	display: table-cell;
+}
+#Addbtn {
+	width: 27.5px;
+	padding: 0.75em 1em 0.5em 1em;
+	text-align: center;
+	vertical-align: middle;
+	display: table-cell;
+	border-left: 1px solid #C2C2C2;
+}
+#Addbtn:active {
+	background-color: #f0f0f0;
+}
+.banner {
+	padding: 1.25em;
+}
+#list {
+	border-top: 0.5px solid #C2C2C2;
+	border-bottom: 0.5px solid #C2C2C2;
+}
+.type {
+	display: table;
+	border-top: 0.5px solid #C2C2C2;
+	border-bottom: 0.5px solid #C2C2C2;
+	width: 100%;
+	position: sticky;
+	top: 0;
+	background-color: #FFFFFF;
+}
+.icon {
+	width: 27.5px;
+	padding: 0.75em 1em 0.5em 1em;
+	text-align: center;
+	vertical-align: middle;
+	display: table-cell;
+}
+.name {
+	display: table-cell;
+	padding: 1.25em 1.25em 1.25em 0;
+}
+.device {
+	padding: 1.25em 1.25em 1.25em 3.75em;
+	border-top: 0.5px solid #C2C2C2;
+	border-bottom: 0.5px solid #C2C2C2;
+}
+.device:active {
+	background-color: #F0F0F0;
+}
+#footer {
+	font-size: 0.85em;
+	padding: 1.15em;
+}
+.palette {
+	padding-top: 1.25em;
+	display: table;
+}
+.blank {
+	width: 1em;
+	height: 27.5px;
+	display: table-cell;
+}
+.color {
+	width: 27.5px;
+	height: 27.5px;
+	border-radius: 13.75px;
+	display: table-cell;
+}
+
+/* Main Function */
+#imageLoader{
+	display: none;
+}
+#imageCanvas{
+	display: none;
+}
+#img_div{
+	margin: 1em 0 0 0;
+    overflow:hidden;
+}
+#img_div img{
+    max-width: 50%;
+}
