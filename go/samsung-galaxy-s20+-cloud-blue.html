@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+<link href="https://fonts.googleapis.com/css?family=Roboto|Noto+Sans+SC&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
+<title>Samsung Galaxy S20+ Cloud Blue | DMO</title>
+</head>
+<body id="body">
+	<div id="header">
+		<div id="name">Samsung Galaxy S20+ Cloud Blue</div><label id="Addbtn" for="imageLoader"><img src="../icons/add.svg" width="25px" alt="Add"></label>
+	</div>
+	<input type="file" id="imageLoader" name="imageLoader"/>
+	<canvas id="imageCanvas"></canvas>
+	<center><div id="img_div"></div></center>
+	<script type="text/javascript">
+		/* Know how you can contribute to the code: Simply go to the Github project's issue. */
+		var imageLoader = document.getElementById("imageLoader");
+      	imageLoader.addEventListener("change", handleImage, false);
+      	var canvas = document.getElementById("imageCanvas");
+      	var ctx = canvas.getContext("2d");
+      	function handleImage(e) {
+        var reader = new FileReader();
+        reader.onload = function(event) {
+        	var img = new Image();
+          	img.crossOrigin = "*";
+          	img.onload = function() {
+            canvas.width = 1840;
+            canvas.height = 3600;
+            ctx.drawImage(img, 200, 200, 1440, 3200);
+			
+            var wm = new Image();
+            wm.crossOrigin = "*";
+            wm.onload = function() {
+              ctx.drawImage(this, 0, 0, 1840, 3600);
+              var base64 = canvas.toDataURL("image/png");
+              var fileToSave = new Image();
+              fileToSave.onload = function() {
+                document.getElementById("img_div").appendChild(this);
+              };
+              fileToSave.src = base64;
+            };
+            wm.src =
+              "../devices/samsung-galaxy-s20+-cloud-blue.png";
+          };
+          img.src = event.target.result;
+        };
+        reader.readAsDataURL(e.target.files[0]);
+      }
+	</script>
+</body>
+</html>

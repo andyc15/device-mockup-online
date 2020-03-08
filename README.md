@@ -14,14 +14,22 @@ There's already lots of websites for device mockup. **Why device-mockup-online?*
 - No upload to the web
 - No ads
 
+Features:
+
+- Full size .png download
+- Add multiple images in one page
+
 The project used only HTML-canvas and Javascript to process the images. Your screenshot will NOT be uploaded to the web. The original mockup images are from Facebook Design.
 
 _
 
+03/08/2020 Update:
+
+- Samsung Galaxy S20 & S20+ & S20 Ultra full color now available
+
 03/05/2020 Update:
 
 - Add Microsoft Surface Pro 4 & Microsoft Surface Book
-- Lost All my contribute data
 
 03/04/2020 Update:
 
