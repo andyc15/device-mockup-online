@@ -21,6 +21,7 @@ _
 03/05/2020 Update:
 
 - Add Microsoft Surface Pro 4 & Microsoft Surface Book
+- Lost All my contribute data
 
 03/04/2020 Update:
 
