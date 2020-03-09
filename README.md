@@ -23,6 +23,10 @@ The project used only HTML-canvas and Javascript to process the images. Your scr
 
 _
 
+03/09/2020 Update:
+
+- Add Google Nexus 4 & Nexus 5X & Nexus 6P & Pixel full color
+
 03/08/2020 Update:
 
 - Samsung Galaxy S20 & S20+ & S20 Ultra full color now available
