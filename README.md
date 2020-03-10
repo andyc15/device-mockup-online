@@ -25,6 +25,10 @@ _
 
 03/09/2020 Update:
 
+- Add Apple MacBook Air full color
+
+03/09/2020 Update:
+
 - Add Google Nexus 4 & Nexus 5X & Nexus 6P & Pixel full color
 
 03/08/2020 Update:
