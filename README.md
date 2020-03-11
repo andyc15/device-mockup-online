@@ -23,7 +23,12 @@ The project used only HTML-canvas and Javascript to process the images. Your scr
 
 _
 
-03/09/2020 Update:
+03/11/2020 Update:
+
+- Add iPhone 5C & 5S full color
+- Add link to FaceBook Design webpage
+
+03/10/2020 Update:
 
 - Add Apple MacBook Air full color
 
