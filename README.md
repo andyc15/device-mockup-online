@@ -23,6 +23,14 @@ The project used only HTML-canvas and Javascript to process the images. Your scr
 
 _
 
+03/13/2020 Update:
+
+- Add iPhone 6S Plus full color
+
+03/12/2020 Update:
+
+- Add iPhone 6S full color
+
 03/11/2020 Update:
 
 - Add iPhone 5C & 5S full color
