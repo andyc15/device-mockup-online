@@ -23,6 +23,10 @@ The project used only HTML-canvas and Javascript to process the images. Your scr
 
 _
 
+03/14/2020 Update:
+
+- Add Google Nexus 9
+
 03/13/2020 Update:
 
 - Add iPhone 6S Plus full color
