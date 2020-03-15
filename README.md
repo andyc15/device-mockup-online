@@ -23,6 +23,10 @@ The project used only HTML-canvas and Javascript to process the images. Your scr
 
 _
 
+03/15/2020 Update:
+
+- Add Apple iMac Pro
+
 03/14/2020 Update:
 
 - Add Google Nexus 9
