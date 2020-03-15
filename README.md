@@ -2,9 +2,9 @@
 
 The fastest way to get your screenshot mockup 😉
 
-- Github Pages: https://andyc15.github.io/device-mockup-online/
-- Netlify: https://dmo.netlify.com
-- Gitee: https://andycis.gitee.io/dmo
+- Github Pages: https://andyc15.github.io/device-mockup-online/  (Stay in 03/15/2020 version)
+- Netlify: https://dmo.netlify.com **(Keeps updating)**
+- Gitee: https://andycis.gitee.io/dmo ( Stay in 03/15/2020 version)
 
 _
 
@@ -22,6 +22,10 @@ Features:
 The project used only HTML-canvas and Javascript to process the images. Your screenshot will NOT be uploaded to the web. The original mockup images are from Facebook Design.
 
 _
+
+Last Update:
+
+THANKS to unbearable low speed and unstable network and only-worked-with-cellular-hotspot GitHub Desktop: This Project is now archieved on GitHub. That's it, no more update on GitHub (for now). device-mockup-online will still updating on Netlify.
 
 03/15/2020 Update:
 
